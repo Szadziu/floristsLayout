@@ -3,10 +3,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'main-pattern': "url('../assets/images/background.jpg')",
-        'nav-rose': "url('../assets/images/red-rose.jpg')",
-        'nav-gerbera': "url('../assets/images/gerbera.jpg')",
-        'nav-crocus': "url('../assets/images/crocus.jpg')",
+        'main-pattern': "url('assets/images/background.jpg')",
+        'nav-rose': "url('assets/images/red-rose.jpg')",
+        'nav-gerbera': "url('assets/images/gerbera.jpg')",
+        'nav-crocus': "url('assets/images/crocus.jpg')",
       },
       flexGrow: {
         1: 1,

@@ -1,14 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Item = ({ className: passedClasses, ...props }) => {
-  // const className = classNames
-
   return (
     <li>
-      <a
-        href={props.link}
-        className="block rounded-full bg-cover bg-center bg-no-repeat w-20 h-20"
-      ></a>
+      <Link
+        to="/roses"
+        className={`block rounded-full bg-cover bg-center bg-no-repeat w-20 h-20 ${passedClasses}`}
+      ></Link>
     </li>
   );
 };
