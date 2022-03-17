@@ -7,6 +7,7 @@ module.exports = {
         'nav-rose': "url('assets/images/red-rose.jpg')",
         'nav-gerbera': "url('assets/images/gerbera.jpg')",
         'nav-crocus': "url('assets/images/crocus.jpg')",
+        roses: "url('assets/images/roses.jpg')",
       },
       flexGrow: {
         1: 1,

@@ -1,13 +1,16 @@
 import React from 'react';
-import Nav from './components/Nav/Nav';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import GalleryRose from './routes/galleryRose';
+import StartView from './routes/startView';
 
 const App = () => {
   return (
-    <section className="h-screen flex flex-col bg-main-pattern">
-      <Nav />
-      <main className=" grow-3 bg-green-200">main</main>
-      <footer className=" grow-1 bg-yellow-300">stopka</footer>
-    </section>
+    <Router>
+      <Routes>
+        <Route path="/" element={<StartView />} />
+        <Route path="/roses" element={<GalleryRose />} />
+      </Routes>
+    </Router>
   );
 };
 
